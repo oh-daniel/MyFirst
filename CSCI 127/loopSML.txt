@@ -1,0 +1,11 @@
+#Daniel Oh
+#daniel.oh26@myhunter.cuny.edu
+#May 4, 2022
+#This is a simplified machine language program that has register $s0 loop through the numbers 0,5,10,...,50.
+
+ADDI $s0, $zero, 0 #set s0 to 0
+ADDI $s1, $zero, 50  #use to decrement counter, $s0
+AGAIN: ADD $s0, $s0, 5
+BEQ $s0, $s1, DONE
+J AGAIN
+DONE:  #To break out of the loop

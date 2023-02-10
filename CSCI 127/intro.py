@@ -1,0 +1,6 @@
+#Name: ...Daniel Oh...
+#Email: ...ohdaniel017@gmail.com...
+#Date: October 4, 2021
+#This program prints: Hello, World!
+
+print("Hello, World")

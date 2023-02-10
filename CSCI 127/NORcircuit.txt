@@ -1,0 +1,6 @@
+#Daniel Oh
+#daniel.oh26@myhunter.cuny.edu
+#March 22, 2022
+#This program is an expression of a NOR circuit
+
+out = not(in1 or in2)

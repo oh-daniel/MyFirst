@@ -1,0 +1,6 @@
+#Daniel Oh
+#daniel.oh26@myhunter.cuny.edu
+#May 5, 2022
+#This script counts the number of .py files in the current working directory.
+
+ls -l | grep ".py" | wc -l

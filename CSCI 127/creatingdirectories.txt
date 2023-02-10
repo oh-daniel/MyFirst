@@ -1,0 +1,10 @@
+#Daniel Oh
+#daniel.oh26@myhunter.cuny.edu
+#April 2, 2022
+#This Unix shell script makes directories
+
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results
